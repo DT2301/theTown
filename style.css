@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    background-image: url(./Ảnh/back.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.tab-bar a {
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.tab-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 80em;
+    height: 8em;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+LI:first-child{
+    margin-right: auto;
+    font-size: 25.2px;
+    font-weight: bold;
+    padding-left:100px; 
+}
+
+li:not(:first-child){
+    font-size: 22.5px;
+    margin-left: 3em ;
+}
+
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: white;
+}
+
+.content-header h1{
+    font-size: 3.5rem;
+    text-shadow: 9px 6px 6px black;
+}
+
+
+.content{
+    font-size: 1.25rem;
+    padding-top: 10px;
+   
+}
+
+.content p{
+    text-shadow: 2px 200px 100px black;
+}
+.content p:last-child{
+    padding: 20px 50px;
+}
+
+.header a:hover{
+    color:rgb(41, 209, 227);
+}
+
+.icon ion-icon {
+    color: rgb(0, 0, 0);
+    /* width: 60px;
+    height:  60PX;*/
+    margin: -80px auto; 
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.icon ion-icon:hover{
+    color: white;
+    background-color: rgb(41, 209, 227);
+}
+
+.background-intro{
+   
+    width: 600px;
+    height: 400px;
+}
+.introduction{
+    margin: 0 auto;
+}
+.content-intro{
+    display: flex;
+    margin: 135px  auto 10px;
+    width: 1300px;
+    height: 500px;
+}
+
+.content-body{
+    margin-left: 100px;
+    color: #8f8f8f;
+}
+
+.content-body h1{
+    color: #3496d8;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: -10px 0px 27px;
+    
+}
+
+.content-body p {
+    font-size: 21px;
+    /* padding-top: 30px; */
+    margin: 0px 0px 27px;
+    /* padding-bottom: 20px; */
+}
+
+.p2{
+    padding-bottom: 20px;
+    
+}
+
+.content-body p a{
+    color: #007bff;
+}
+
+.readmore{
+    background-color: #3496d8;
+    padding: 14px 35px;
+    border-radius: 30px;
+    font-size: 21.6px;
+    color: white;
+    /* margin-top: 100px; */
+}
+
+.readmore:hover{
+    color: white;
+    background-color: #60b5ee;
+    
+}
+.scroll-down~:focus {
+    cursor: pointer;
+}
+
+.body-intro{
+    display: flex;
+    padding: 0 15px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.body-intro div{
+    width: 420px;
+    height: 420px;
+    margin-left: 100px;
+}
+
+.body-intro span{
+    /* margin-top: 50px; */
+    margin-left: 115px;
+    font-size: 100px;
+    color: #3496d8;
+    /* margin-bottom: 100px; */
+    /* padding-bottom: 0; */
+}
+
+.body-intro h5{
+    color: #3496d8;
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.body-intro p{
+    color: #8f8f8f;
+    font-size: 18px;
+}
+
+.header-ourwork{
+    margin-top: 100px;
+}
+
+.header-ourwork h1{
+    margin-left: 42%;
+    font-size: 3em;
+    color: #3496d8;
+    font-weight: 400;
+}
+
+.header-ourwork p{
+    width: 725px;
+    height: 60px;
+    font-size: 1rem;
+    color: #8f8f8f;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 95px;
+}
+
+.img-slide{
+   display: flex;
+    width: 1230px; 
+    height: 380px;
+    overflow: hidden;
+    margin: auto;
+    margin-right: 160px;
+}
+
+.slide{
+    width: 230px;
+    height: 335px;
+    color: #007bff04;
+}
+
+.slide1{
+    background-image: url(./Ảnh/slide1.jpg);
+    background-size: cover;
+}
+
+.slide2{
+    background-image: url(./Ảnh/slide2.jpg);
+    background-size: cover;
+}
+
+.slide3{
+    background-size: cover;
+    background-image: url(./Ảnh/slide3.jpg);
+}
+
+.slide4{
+    background-size: cover;
+    background-image: url(./Ảnh/slide4.jpg);
+}
+
+.slide5{
+    background-size: cover;
+    background-image: url(./Ảnh/slide5.jpg);
+}
+
+.slide6{
+    background-size: cover;
+    background-image: url(./Ảnh/slide6.jpg);
+}
+
+.onclick{
+    display: flex;
+    justify-content: center;
+}
+
+.button_slide{
+    background-color:#8f8f8f;
+    width: 20px;
+    height: 20px;
+    margin: 2px  10px 100px;
+    border-radius: 50%;
+
+}
+
+.contact_us{
+    background-image: url(./Ảnh/back2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-size: 16px;
+}
+
+.contact_us-header{
+    margin-left: 17%;
+    padding-top: 10%;
+}
+.contact_us-header h1{
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.line{
+    /* position: relative; */
+    width: 1035px;
+    height: 2px; /* Độ dày của đường thẳng */
+    background-color: white; /* Màu sắc của đường thẳng */
+    /* margin: 50px auto; */
+}
+
+.highlight{
+    width: 260px;
+    height: 5px; /* Độ dày của đường thẳng */
+    background-color: white; /* Đảm bảo phần làm đậm nằm trên phần còn lại */
+}
+
+.contact_us-header p {
+    width: 1040px;
+    margin-top: 40px;
+}
+
+.icon-contact{
+    display: flex;
+    margin-left: 40%;
+
+}
+
+.icon-contact p{
+    font-size: 18px;
+}
+ion-icon{
+    color: white;
+    font-size: 70px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.call p {
+    display: inline-block;
+}
+
+.call_maps {
+    margin-top: 8%;
+    margin-right: 20%;
+    margin-left: -22%;
+}
+.mail_button{
+    margin-top: 8%;
+}
+
+.call  {
+    margin-bottom: 50px;
+}
+
+.mail{
+    margin-bottom: 65px;
+}
+
+.call , .map , .mail , .button_submit{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: white;
+    padding: 10px 32px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+input{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 255px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #007bff04;
+}
+
+ input::placeholder {
+    color: white; /* Màu chữ của placeholder */
+}
